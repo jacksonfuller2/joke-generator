@@ -11,4 +11,4 @@ Responsive web application that fetches jokes from a REST API. This project was 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3 (Custom Properties/Variables)
 - **Logic:** Vanilla JavaScript
-- **API:** [Official Joke API]([https://github.com/15Dkatz/official_joke_api?tab=readme-ov-file])
+- **API:** [Official Joke API](https://github.com/15Dkatz/official_joke_api)
