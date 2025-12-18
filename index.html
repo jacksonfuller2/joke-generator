@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
-    <!-- Links to CSS files go here -->
+    <title>Joke Generator | Jackson Fuller</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- The main visible content of the page goes here -->
-     <p>Testing this website</p>
+
+    <main class="container">
+        <header>
+            <h2>Randomized Joke Generator</h2>
+            <div class="underline"></div>
+        </header>
+        
+        <!-- Category selection for jokes -->
+        <section class="controls">
+            <label for="category">Select Category:</label>
+            <select id="category">
+                <option value="random">Random (All Types)</option>
+                <option value="general">General</option>
+                <option value="programming">Programming</option>
+                <option value="knock-knock">Knock-Knock</option>
+                <option value="dad">Dad Jokes</option>
+            </select>
+        </section>
+
+        <!-- Generate the jokes -->
+        <button id="generate-btn">Generate Joke</button>
+
+        <article id="joke-display" class="display-area">
+            <p id="output-text">Select a category and get a laugh!</p>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
